@@ -1,0 +1,12 @@
+venv/
+.env/
+credentials.py
+data/
+*.csv
+*.parquet
+*.xlsx
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
