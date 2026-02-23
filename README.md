@@ -1,4 +1,4 @@
-# Raport final – Flux de date energetice (EIA & WDI)
+# Flux de date energetice (EIA & WDI)
 
 ## Introducere
 
