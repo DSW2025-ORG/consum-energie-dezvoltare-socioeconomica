@@ -85,7 +85,7 @@ Aceste probleme sunt abordate explicit în etapa următoare a proiectului, dedic
 
 La finalul acestei etape, datele energetice sunt salvate într-un singur fișier CSV, în format long, care păstrează toate seriile disponibile pentru transparență:
 
-- `01_eia_data_student1.csv`
+- `eia_data.csv`
 
 Acest fișier va fi utilizat ca intrare pentru etapa de **curățare și standardizare a datelor EIA**, precum și ca referință temporală pentru colectarea datelor WDI în pasul următor.
 
@@ -178,7 +178,7 @@ Aceste aspecte vor fi tratate în etapa următoare a proiectului, dedicată cur�
 
 La finalul acestei etape, datele WDI sunt salvate într-un fișier CSV, în format long, pregătit pentru integrarea cu datele energetice EIA:
 
-- `02_wdi_data_student2.csv`
+- `wdi_data.csv`
 
 ## Pasul 3 – Curățarea, alinierea și combinarea datelor (EIA + WDI)
 #### Responsabil: Cătălina Minciună
@@ -273,7 +273,7 @@ Dataset-ul final rezultat conține:
 Acesta reprezintă un **panel curat**, fără duplicate și fără valori lipsă, pregătit pentru analiza exploratorie a datelor și pentru etapele de feature engineering și analiză statistică.
 
 Dataset-ul final a fost salvat în format CSV:
-- `03_cleaning_aggregation_student3.csv`
+- `cleaning_aggregation.csv`
 
 
 ## Pasul 4 – Analiza datelor exploratorie (EDA)
@@ -317,7 +317,7 @@ Scopul acestei etape este investigarea dataset-ului final obținut după curăț
 ## Dataset utilizat
 
 Analiza exploratorie a fost realizată pe dataset-ul final curat, rezultat din combinarea datelor EIA și WDI, salvat în:
-- `03_cleaning_aggregation_student3.csv`
+- `cleaning_aggregation.csv`
 
 ## Concluzii intermediare
 
