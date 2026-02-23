@@ -2,7 +2,10 @@ venv/
 .env/
 credentials.py
 data/
+# ignore all csv by default
 *.csv
+# allow project datasets
+!date/*.csv
 *.parquet
 *.xlsx
 .ipynb_checkpoints/
