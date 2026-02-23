@@ -2,9 +2,7 @@ venv/
 .env/
 credentials.py
 data/
-# ignore all csv by default
-*.csv
-# allow project datasets
+.csv
 !date/*.csv
 *.parquet
 *.xlsx
